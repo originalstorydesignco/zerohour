@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900,700,600,300,200');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900,700,600,500,400,300,200,100');
 
 @font-face {
-	font-family: 'mazak';
-    src: url('./assets/fonts/mazak.woff2') format('woff2'),
-        url('./assets/fonts/mazak.woff') format('woff');
+    font-family: 'RIVERHACK';
+    src: url('RIVERHACK-Regular.woff2') format('woff2'),
+        url('RIVERHACK-Regular.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
 }
 
 /* TABLE OF CONTENTS 
@@ -90,12 +91,18 @@
 /* TYPE */
 
 	h1 {
-		font-family: 'mazak';
+		font-family: 'RIVERHACK';
 		font-weight: normal;
 		font-style: normal;
 		text-transform: lowercase;
-		letter-spacing: -0.1em;
+		line-height: 1.2;
+		letter-spacing: 0.1em;
+		
 	}
+
+span.letterspacing {
+	letter-spacing: -0.1em;
+}
 
 		h2.paddingbottom035em {
 			padding-bottom: 0.4em;
@@ -104,7 +111,7 @@
 
 	h2 {
 		font-family: 'Montserrat';
-		font-weight: 700;
+		font-weight: 400;
 	}
 
 	h3 {
@@ -139,6 +146,7 @@
 			font-size: 1.5em;
 		}
 
+
 		.fontsize25em {
 			font-size: 2.5em;
 		}
@@ -162,15 +170,15 @@
 
 
 		.fontsize6em {
-			font-size: 6em;
+			font-size: 7em;
 		}
 
 .fontsize8em {
 	font-size: 8em;
 }
 
-		.fontsize10em {
-			font-size: 10em;
+		.fontsize9em {
+			font-size: 9em;
 		}
 
 .fontsize11em {
@@ -338,11 +346,24 @@
 	width: 100%;
 }
 
+.margintop9em {
+	margin-top: 9em;
+}
+
+.marginbottom3em {
+	margin-bottom: 4em;
+}
+
+
 .marginbottom5em {
 	margin-bottom: 5em;
 }
 		.marginbottom7em {
 			margin-bottom: 7em;
+		}
+
+.marginbottom9em {
+			margin-bottom: 9em;
 		}
 
 /* SPECIFIC PAGES */
@@ -441,10 +462,17 @@ img.landing-title {
 }
 
 	.landing-box-01 {
+		display: table-cell;
 		height: 100%;
-		width: 80%;
-		margin: 0 auto;
-		padding: 7em 0;
+		width: 100%;
+		margin: auto;
+		background: 
+			 linear-gradient(
+				  rgba(255, 255, 255, 0.45), 
+				  rgba(255, 255, 255, 0.45)
+				),
+			url(../../img/18829332574_e82a27787f_o-web.jpg) no-repeat center;
+		background-size: cover;
 		vertical-align: middle;
 		text-align: center;
 	}
@@ -505,6 +533,7 @@ img.landing-title {
 
 .image-gallery { 
   padding: 0;
+	background-color: #fe3e00;
   font-size: 0;
 }
 
@@ -514,50 +543,37 @@ img.landing-title {
 	-webkit-transition: opacity 0.1s ease-out;
 	-ms-transition: opacity 0.1s ease-out;
 	transition: opacity 0.1s ease-out;
-	opacity: 0.55;
+	opacity: 0.6;
 }
 
 .image-gallery div.first {
 	width: 33.33%;
-	height: 50%;
+	height: 60%;
 	background: url('../../img/Web-march-Levi1-800.jpg') no-repeat center;
 	background-size: cover;
 }
 
 .image-gallery div.second {
 	width: 66.66%;
-	height: 50%;
-	background: url('../../img/president_protest_0031-800.jpg') no-repeat center;
+	height: 60%;
+	background: url('../../img/CwJ3qSDUsAAuOo3-800.jpg') no-repeat center;
 	background-size: cover;
 }
 
 .image-gallery div.third {
 	width: 66.66%;
-	height: 50%;
+	height: 60%;
 	background: url('../../img/1-LrMc7mwOULlwUnqUVefysA-900.jpg') no-repeat center;
 	background-size: cover;
 }
 
 .image-gallery div.fourth {
 	width: 33.33%;
-	height: 50%;
+	height: 60%;
 	background: url('../../img/Climate-Xiuhtezcatl-Martinez1--870x580-800.jpg') no-repeat center;
 	background-size: cover;
 }
 
-.image-gallery div.fifth {
-	width: 33.33%;
-	height: 50%;
-	background: url('../../img/FullSizeRender-9-600.jpg') no-repeat center;
-	background-size: cover;
-}
-
-.image-gallery div.sixth {
-	width: 66.66%;
-	height: 50%;
-	background: url('../../img/CwJ3qSDUsAAuOo3-800.jpg') no-repeat center;
-	background-size: cover;
-}
 
 
 
@@ -604,9 +620,23 @@ img.landing-title {
 .subtitle-01 {
 	width: max-content;
 	height: 2.25em;
-	margin: 2em auto;
+	margin: 2em 0;
 	padding: 1em 2em;
-	background-color: #fe3e00;	
+	background-color: #fe3e00;
+	border-radius: 2em;
+}
+
+.button {
+	background-color: #fff;
+	color: #fe3e00;
+	-moz-transition: background 0.1s ease-out;
+	-webkit-transition: background 0.1s ease-out;
+	-ms-transition: background 0.1s ease-out;
+	transition: background 0.1s ease-out;
+}
+
+.button:hover {
+	background-color: #b6e9f9;
 }
 
 .no-text-decoration {
@@ -702,7 +732,7 @@ img.landing-title {
 .menu-icon {
   position: absolute;
   width: 20px;
-  height: 14px;
+  height: 16px;
   margin: auto;
   left: 0;
   top: 0;
@@ -713,8 +743,8 @@ img.landing-title {
 
 /* ------------- */
 .menu-line {
-  background-color: #333;
-  height: 2px;
+  background-color: #fff;
+  height: 4px;
   width: 100%;
   border-radius: 2px;
   position: absolute;
@@ -738,13 +768,13 @@ img.landing-title {
   opacity: 0;
 }
 .menu.open .menu-line-3 {
-  -webkit-transform: translateY(-7px) translateY(50%) rotate(45deg);
-          transform: translateY(-7px) translateY(50%) rotate(45deg);
+  -webkit-transform: translateY(-9px) translateY(50%) rotate(45deg);
+          transform: translateY(-9px) translateY(50%) rotate(45deg);
 }
 
 /* ------------- */
 .menu-circle {
-  background-color: #fff;
+  background-color: #fe3e00;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -768,7 +798,7 @@ img.landing-title {
 
 /* ------------- */
 .menu-overlay {
-  background-color: #fff;
+  background-color: #fe3e00;
   color: #333;
   height: 100%;
   width: 100%;
@@ -783,6 +813,9 @@ img.landing-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+	align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -794,14 +827,17 @@ img.landing-title {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.menu-overlay .cellleft {
+	width: 40%
+}
+
+.menu-overlay .cellright {
+	width: 40%
+}
 .menu-overlay.open {
   opacity: 1;
   visibility: visible;
-}
-
-.menu-overlay h1 {
-	font-family: 'Montserrat';
-	font-weight: 600;
 }
 
 /* ------------- */
@@ -821,94 +857,35 @@ img.landing-title {
 
 /* FOOTER */
 
-	div.footer {
-		display: table;
-		width: 100vw;
-		padding: 2.5em 0;
-		background-color: #fe3e00;
-		font-family: Montserrat;
-		font-size: 1.25em;
-		font-weight: 300;
-		color: #fff;
-	}
+.{}
+.footers {
+	height: 4em;
+	width: 100vw;
+	margin: 0 auto;
+	padding: 2.5em 0;
+	background-color: #fe3e00;
+	font-size: 2em;
+	text-align: center;
+}
 
-		@media screen and (max-width: 1230px) {
-			div.footer {
-				display: block;
-			}
-		}
+}
+.social {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
 
-	div.footer .cellleft {
-		display: table-cell;
-		height: 100%;
-		width: 20%;
-		margin: 0 auto;
-		padding-left: 25%;
-		text-align: left;
-		vertical-align: middle;
-	}
+.social-icon {
+	display: inline-block;
+	width: 0em;
+	height: 0em;
+	margin: 1em 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+	text-align: center;
+}
 
-		@media screen and (max-width: 1230px) {
-			div.footer .cellleft {
-				display: block;
-				height: inherit;
-				width: 100%;
-				padding-left: 0;
-				padding-bottom: 2em;
-				text-align: center;
-			}
-		}
-
-	div.footer .cellright {
-		display: table-cell;
-		height: 100%;
-		width: 20%;
-		margin: 0 auto;
-		padding-right: 25%;
-		text-align: right;
-		vertical-align: middle;
-	}
-
-		@media screen and (max-width: 1230px) {
-			div.footer .cellright {
-				display: block;
-				height: inherit;
-				width: 100%;
-				padding-right: 0;
-				text-align: center;
-			}
-		}
-
-		div.footer a.footer {
-			position: relative;
-			display: block;
-			padding: 0.35em 1em;
-			color: #fff;
-			text-decoration: none;
-			cursor: pointer;
-			z-index: 0;
-		}
-
-		div.footer a.social {
-			position: relative;
-			display: inline;
-			padding: 0.2em;
-			color: #fff;
-			text-decoration: none;
-			cursor: pointer;
-			z-index: 0;
-		}
-
-			@media screen and (max-width: 1230px) {
-				div.footer a.social {
-					font-size: 1.8em;
-				}
-			}
-
-		div.footer a:hover {
-			opacity: 0.75;
-			-moz-transition: opacity 0.1s ease-out;
-			-webkit-transition: opacity 0.1s ease-out;
-			-ms-transition: opacity 0.1s ease-out;
-			transition: opacity 0.1s ease-out;
-		}
+.social-fix {
+	margin-top: -0.49em;
+	margin-left: -0.41em;
+}
