@@ -347,6 +347,7 @@
 		.margin-top-1em {
 			margin-top: 1em;
 		}
+
 		.margin-top-2em {
 			margin-top: 2em;
 		}
@@ -426,7 +427,7 @@
 					  rgba(255, 255, 255, 0.45), 
 					  rgba(255, 255, 255, 0.45)
 					),
-				url(../../img/18829332574_e82a27787f_o-web.jpg) no-repeat center;
+				url(../../img/home/18829332574_e82a27787f_o-web.jpg) no-repeat center;
 			background-size: cover;
 			vertical-align: middle;
 			text-align: center;
@@ -441,7 +442,7 @@
 					  rgba(254, 255, 255, 0.45), 
 					  rgba(255, 255, 255, 0.45)
 					),
-				url(../../img/ClimateMarchDC_042917_337e2c-Karen-Rubin-web.jpg) no-repeat center;
+				url(../../img/home/ClimateMarchDC_042917_337e2c-Karen-Rubin-web.jpg) no-repeat center;
 			background-size: cover;
 			vertical-align: middle;
 			text-align: center;
