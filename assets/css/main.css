@@ -648,6 +648,44 @@ img.landing-title {
 	background-color: transparent;
 }
 
+.team-list {
+	display: table;
+	position: relative;
+	width: 100vw;
+	margin: 0;
+	text-align: left;
+}
+
+.team-thumb {
+	display: inline-block;
+	position: relative;
+	width: 25%;
+	min-height: 300px;
+	margin: 0;
+		background: center no-repeat;
+	background-size: cover;
+	vertical-align: middle;
+}
+
+.team-thumb h2 {
+	display: table-cell;
+	width: 25%;
+	height: 300px;
+	margin: 0 auto;
+	font-family: 'Montserrat';
+	font-size: 1.25em;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fe3e00;
+	text-align: center;
+	vertical-align: middle;
+	opacity: 0;
+}
+
+.team-thumb h2:hover {
+	background-color: rgba(255,255,255,0.85);
+	opacity: 1;
+}
 
 	.arrowdown-white {
 		position: absolute;
