@@ -753,14 +753,16 @@
 
 	#form {
 		position: relative;
+		width: 100%;
 		float: left;
 		overflow: auto;
-		margin: 0;
+		margin: 0 0 7em 0;
 		padding: 0;
 		font-family: 'Montserrat';
 	}
 
 	#form table { 
+		width: 100%;
 		margin: 0;
 		padding: 0;
 	}
@@ -798,45 +800,43 @@
 		font-family: 'Montserrat';
 		font-size: 1em;
 		font-weight: 200;
-		
 		margin: 0 0 10px;
 		overflow: auto;
-		padding: 8px 0 8px 13px;
-		width: 416px;
+		padding: 1em;
+		width: 100%;
 	}
 
 	input[type="email"]:required:invalid,input[type="email"]:focus:invalid {
 		background-image:url("http://www.markhillard.com/images/lock.svg");
-		background-position: right 8px center;
+		background-position: right 0.75em center;
 		background-repeat: no-repeat;
-		background-size: 23px 23px;
+		background-size: 1.5em 1.5em;
 		box-shadow: none;
 	}
-
 	input[type="email"]:required:valid,input[type="email"]:focus:valid {
 		background-image: url("http://www.markhillard.com/images/unlock.svg");
-		background-position: right 8px center;
+		background-position: right 0.75em center;
 		background-repeat: no-repeat;
-		background-size: 23px 23px;
+		background-size: 1.5em 1.5em;
 	}
 
 	#form textarea {
-		background-color: #666;
-		border: none;
-		border-radius: 5px;
-		clear: left;
-		color: #E5E5E5;
 		display: block;
+		height: 15em;
+		width: 100%;
 		float: left;
-		font-family: 'Montserrat';
-		font-size: 16px;
-		font-weight: 400;
-		height: 241px;
+		background-color: #eee;
+		border: none;
+		border-radius: 0.5em;
 		margin: 0;
+		padding: 1em;
+		clear: left;
+		color: #151515;
+		font-family: 'Montserrat';
+		font-size: 1em;
+		font-weight: 200;
 		overflow: auto;
-		padding: 8px 0 8px 13px;
 		resize: none;
-		width: 416px;
 	}
 
 /* MENU
