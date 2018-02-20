@@ -362,6 +362,12 @@
 			margin: 0 auto;
 		}
 
+			@media screen and (min-width: 1400px) {
+				.width-60 {
+					width: 40%;
+				}
+			}
+
 			@media screen and (max-width: 600px) {
 				.width-60 {
 					width: 85%;
@@ -717,25 +723,121 @@
 		font-size: 11px
 	}
 
-.logo-gallery {
-	width: 90%;
-	margin: 0 auto;
-	text-align: center;
-}
+	.logo-gallery {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+	}
 
-.logo-gallery img {
-	filter: gray;
-	-webkit-filter: grayscale(1);
-	-moz-transition: all 0.1s ease-out;
-	-webkit-transition: all 0.1s ease-out;
-	-ms-transition: all 0.1s ease-out;
-	transition: all 0.1s ease-out;
-}
+		.logo-gallery img {
+			filter: gray;
+			-webkit-filter: grayscale(1);
+			-moz-transition: all 0.1s ease-out;
+			-webkit-transition: all 0.1s ease-out;
+			-ms-transition: all 0.1s ease-out;
+			transition: all 0.1s ease-out;
+		}
 
-.logo-gallery img:hover {
-	filter: none;
-	-webkit-filter: grayscale(0);
-}
+			.logo-gallery img:hover {
+				filter: none;
+				-webkit-filter: grayscale(0);
+			}
+
+	/* CONTACT */
+
+	*,*::before,*::after { box-sizing:border-box; }
+	*:focus { outline:none; }
+
+	input,textarea { appearance:none; background:none; }
+	input::-moz-focus-inner { border:0; padding:0; }
+
+	#form {
+		position: relative;
+		float: left;
+		overflow: auto;
+		margin: 0;
+		padding: 0;
+		font-family: 'Montserrat';
+	}
+
+	#form table { 
+		margin: 0;
+		padding: 0;
+	}
+
+	#form input[type="submit"],#form input[type="reset"] {
+		background-color: #eee;
+		border: none;
+		border-radius: 1em;
+		color: #151515;
+		cursor: pointer;
+		float: right;
+		font-family: 'Montserrat';
+		font-size: 1em;
+		font-weight: 200;
+		margin: 0.5em 0 0 0.5em;
+		padding: 0.5em 1.5em;
+		text-decoration: none;
+		-moz-transition: all 0.1s ease-out;
+		-webkit-transition: all 0.1s ease-out;
+		-ms-transition: all 0.1s ease-out;
+		transition: all 0.1s ease-out;
+	}
+
+	#form input[type="submit"]:hover,#form input[type="reset"]:hover {
+		background-color:#fe3e00;
+		color: #fff;
+	}
+
+	#form input[type="text"],#form input[type="email"] {
+		height: 3em;
+		background-color: #eee !important;
+		border: none;
+		border-radius: 0.5em;
+		color: #151515;
+		font-family: 'Montserrat';
+		font-size: 1em;
+		font-weight: 200;
+		
+		margin: 0 0 10px;
+		overflow: auto;
+		padding: 8px 0 8px 13px;
+		width: 416px;
+	}
+
+	input[type="email"]:required:invalid,input[type="email"]:focus:invalid {
+		background-image:url("http://www.markhillard.com/images/lock.svg");
+		background-position: right 8px center;
+		background-repeat: no-repeat;
+		background-size: 23px 23px;
+		box-shadow: none;
+	}
+
+	input[type="email"]:required:valid,input[type="email"]:focus:valid {
+		background-image: url("http://www.markhillard.com/images/unlock.svg");
+		background-position: right 8px center;
+		background-repeat: no-repeat;
+		background-size: 23px 23px;
+	}
+
+	#form textarea {
+		background-color: #666;
+		border: none;
+		border-radius: 5px;
+		clear: left;
+		color: #E5E5E5;
+		display: block;
+		float: left;
+		font-family: 'Montserrat';
+		font-size: 16px;
+		font-weight: 400;
+		height: 241px;
+		margin: 0;
+		overflow: auto;
+		padding: 8px 0 8px 13px;
+		resize: none;
+		width: 416px;
+	}
 
 /* MENU
 SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd 

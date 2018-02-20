@@ -8,6 +8,7 @@
 	<meta charset="utf-8">
 
     <link rel="stylesheet" href="../assets/css/main.css" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	
@@ -48,13 +49,65 @@
 	<div class="width-60 margin-bottom-7em">
 		<h3 class="padding-bottom-035em font-size-25em red-black uppercase">Subscribe</h3>
 		<p class="black-red">We will have lots going on between now and our gathering in Washington D.C. Subscribe to stay updated on our youth-led climate actions throughout the spring and summer.</p>
-		<p>[Ideally we&rsquo;ll embed the Action Network page here.]</p>
-		<h3 class="margin-top-1em padding-bottom-035em font-size-25em red-black uppercase">Volunteer</h3>
-		<p class="black-red">We might put volunteer team information here, or just embed a Google Form. To be updated when we can. Email <a href="mailto:info@thisiszerohour.org">info@thisiszerohour.org</a> in the meantime.</p>
-		<h3 class="margin-top-1em padding-bottom-035em font-size-25em red-black uppercase">Donate</h3>
-		<p class="black-red">One of the best ways that you can support climate action is by offering financial resources to those who don&rsquo;t have them. We&rsquo;re young. We&rsquo;re either making minimum wage or focusing on schoolwork. So essentially the only way that youth-led solutions are possible is through the financial backing of adults. Your support will ensure that youth activists can participate in the day of action in Washington, D.C., and provide a foundation for this growing movement.</p>
-		<p class="black-red">Please make a donation to help us confront our leaders and amplify the youth voice in the climate movement. Every donation counts and no amount is too small. Hit us with a nickel. We&rsquo;ll put it to good use.</p>
-		<p>[Ideally we&rsquo;ll embed the Action Network page here.]</p>
+		
+		<form id="contact-form" method="post" action="../assets/php/contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Phone</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="http://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
+            </div>
+        </div>
+    </div>
+
+</form>
 		
 	</div>
 
@@ -87,189 +140,11 @@ $('a[href^="#"]').click(function () {
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src="../assets/js/menu.js"></script>
 
-<!-- MAP SCRIPT -->
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?v=3"></script>
-
-<script type="text/javascript">
-	function initialize() {
-		var isMobile = (navigator.userAgent.toLowerCase().indexOf('android') > -1) ||	(navigator.userAgent.match(/(iPod|iPhone|iPad|BlackBerry|Windows Phone|iemobile)/));
-		
-		if (isMobile) {
-			var viewport = document.querySelector("meta[name=viewport]");
-			viewport.setAttribute('content', 'initial-scale=1.0, user-scalable=no');
-		}
-		
-		var mapDiv = document.getElementById('googft-mapCanvas');
-		mapDiv.style.width = isMobile ? '100%' : '100%';
-		mapDiv.style.height = isMobile ? '100%' : '500px';
-		var map = new google.maps.Map(mapDiv, {
-			center: new google.maps.LatLng(39.43586382081762, -92.10481767232602),
-			zoom: 4,
-			streetViewControl: false,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-				styles: [
-    {
-        "featureType": "administrative",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": "-100"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative.province",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "lightness": 65
-            },
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "lightness": "50"
-            },
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": "-100"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "all",
-        "stylers": [
-            {
-                "lightness": "30"
-            }
-        ]
-    },
-    {
-        "featureType": "road.local",
-        "elementType": "all",
-        "stylers": [
-            {
-                "lightness": "40"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "hue": "#ffff00"
-            },
-            {
-                "lightness": -25
-            },
-            {
-                "saturation": -97
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "labels",
-        "stylers": [
-            {
-                "lightness": -25
-            },
-            {
-                "saturation": -100
-            }
-        ]
-    }
-]
-		});
-		map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(document.getElementById('googft-legend-open'));
-		map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(document.getElementById('googft-legend'));
-
-		var layer = new google.maps.FusionTablesLayer({
-			map: map,
-			heatmap: { enabled: false },
-			query: {
-				select: "col2",
-				from: '1dsGZCe4RXJhFEs-F6bZAM9lztyHKMUJcRvY2J_nr'
-			},
-			styles: [{
-				markerOptions: {
-    			iconName: "wht_circle"
-  				}
-			}]
-			})
-
-		if (isMobile) {
-			var legend = document.getElementById('googft-legend');
-			var legendOpenButton = document.getElementById('googft-legend-open');
-			var legendCloseButton = document.getElementById('googft-legend-close');
-			legend.style.display = 'none';
-			legendOpenButton.style.display = 'block';
-			legendCloseButton.style.display = 'block';
-			legendOpenButton.onclick = function() {
-				legend.style.display = 'block';
-				legendOpenButton.style.display = 'none';
-			}
-			legendCloseButton.onclick = function() {
-				legend.style.display = 'none';
-				legendOpenButton.style.display = 'block';
-			}
-		}
-	}
-
-	google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+<!-- FORM SCRIPT -->
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="../assets/js/validator.js"></script>
+<script src="../assets/js/contact.js"></script>
 	
 </body>
 </html>
