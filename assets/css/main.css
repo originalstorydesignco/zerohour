@@ -698,17 +698,21 @@
 		.text-blurb-1 h2{font-size:1.8rem}
 	}
 
-	#zero-hour h1 {font-size:1.5rem;padding:2rem 1rem}	
+#zero-hour {
+	padding: 7em 0;
+	text-align: center;
+}
+
+ #zero-hour h1 {font-size:1.5rem;padding:2rem 1rem 0}	
 
 	
 	@media (min-width:480px) and (max-width:959px){
-		#zero-hour h1 {font-size:2.5rem;padding:3rem 1rem}
+		#zero-hour h1 {font-size:2.5rem;padding:3rem 1rem 0}
 	}
 
 	@media (min-width:960px) {
-		#zero-hour h1 {font-size:4.5rem;padding:5rem 1rem}
+		#zero-hour h1 {font-size:4.5rem;padding:5rem 1rem 0}
 	}
-
 
 	/* WHO WE ARE */
 
