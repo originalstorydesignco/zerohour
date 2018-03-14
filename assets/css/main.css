@@ -475,7 +475,7 @@
 		position: relative;
 		background: transparent;
 		height: 100vh;
-		width: 100vw; 
+		width: 100%; 
 		margin: 0 auto;
 		overflow: hidden;
 	}
@@ -751,7 +751,7 @@
 	.team-list {
 		display: table;
 		position: relative;
-		width: 100vw;
+		width: 100%;
 		margin: 0;
 		text-align: left;
 	}
@@ -1000,58 +1000,6 @@
 		resize: none;
 	}
 
-	/* DONATE */
-
-	.wrap-widget {position:relative;padding-bottom:750%;height:0;overflow:hidden;}
-	.wrap-widget iframe {position:absolute;top:0;left:0;width:100%;height:100%;}
-
-	@media screen and (min-width: 1200px) {
-		.wrap-widget {
-			padding-bottom: 215%;
-		}
-	}
-
-	@media (min-width: 1024px) and (max-width: 1199px) {
-		.wrap-widget {
-			padding-bottom:250%;
-		}
-	}
-
-	@media (min-width: 900px) and (max-width: 1023px) {
-		.wrap-widget {
-			padding-bottom:300%;
-		}
-	}
-
-	@media (min-width: 738px) and (max-width: 899px) {
-		.wrap-widget {
-			padding-bottom:375%;
-		}
-	}
-
-	@media (min-width: 601px) and (max-width: 737px) {
-		.wrap-widget {
-			padding-bottom:550%;
-		}
-	}
-
-	@media (min-width: 521px) and (max-width: 600px) {
-		.wrap-widget {
-			padding-bottom:400%;
-		}
-	}
-
-	@media (min-width: 426px) and (max-width: 520px) {
-		.wrap-widget {
-			padding-bottom:650%;
-		}
-	}
-
-	@media (min-width:376px) and (max-width:425px){
-		.wrap-widget {
-			padding-bottom:700%;
-		}
-	}
 
 /* MENU
 SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd 
@@ -1222,7 +1170,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		margin: 0 auto;
 		padding: 4rem 0;		
 		text-align: center;
-		width: 100vw;
+		width: 100%;
 	}
 
 	@media screen and (max-width: 767px) {
