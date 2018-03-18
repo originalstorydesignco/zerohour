@@ -654,6 +654,17 @@
 		text-align: center;
 	}
 
+.button-secondary {
+	margin: 1rem 0 0 0.5rem;
+	padding: 0.8rem 1.3rem;
+	border-radius: 4px;
+	display: inline;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-decoration: none;
+	text-align: center;
+}
+
 .button-red {
 	background: #fe3e00;
 	color: #fff;
@@ -1075,6 +1086,46 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* SUBSCRIBE WIDGET */
+
+.can_embed #can_embed_form,
+.can_embed #donate_auto_modal {
+	color: #151515 !important;
+	font-family: 'Montserrat';
+}
+
+.can_embed #can_embed_form a, .can_embed #donate_auto_modal a {
+	color: #fe3e00;
+}
+
+/* Heading colors */
+.can_embed #can_embed_form h1,
+.can_embed #donate_auto_modal h1,
+.can_embed #can_embed_form h2,
+.can_embed #donate_auto_modal h2,
+.can_embed #can_embed_form h3,
+.can_embed #donate_auto_modal h3,
+.can_embed #can_embed_form h4,
+.can_embed #donate_auto_modal h4,
+.can_embed #can_embed_form h5,
+.can_embed #donate_auto_modal h5,
+.can_embed #can_embed_form h6,
+.can_embed #donate_auto_modal h6 {
+	color: #151515 !important;
+}
+
+.can_embed #logo_wrap {
+	display: none !important;
+}
+
+.can_embed .can_button,
+.can_embed #can_embed_form input[type="submit"],
+.can_embed #can_embed_form .button,
+.can_embed #donate_auto_modal input[type="submit"],
+.can_embed #donate_auto_modal .button {
+	background-color: #fe3e00 !important;
+}
 
 /* FOOTER */
 
