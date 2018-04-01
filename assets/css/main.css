@@ -927,6 +927,13 @@
 			}
 		}
 
+	/* MEDIA */ 
+
+img.media-image {
+	width: 100%;
+	padding: 1rem 0;
+}
+
 /* MENU
 SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd 
 */
