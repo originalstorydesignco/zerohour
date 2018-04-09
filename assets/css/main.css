@@ -927,12 +927,12 @@
 			}
 		}
 
-	/* MEDIA */ 
+/* MEDIA */ 
 
-img.media-image {
-	width: 100%;
-	padding: 1rem 0;
-}
+	img.media-image {
+		width: 100%;
+		padding: 1rem 0;
+	}
 
 /* MENU
 SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd 
@@ -958,7 +958,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		position: absolute;
 		width: 20px;
 		height: 16px;
-		margin: auto;
+		margin: 17px auto auto auto;
 		left: 0;
 		top: 0;
 		right: 0;
@@ -968,7 +968,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 
 	.menu-line {
 		position: absolute;
-		left: 0;
+		left: 3px;
 		width: 100%;
 		height: 4px;
 		background-color: #fff;
@@ -1006,6 +1006,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		width: 100%;
 		height: 100%;
 		background-color: #fe3e00;
+		border: 3px #fff solid;
 		border-radius: 50%;
 		-webkit-transform: scale(1);
 		transform: scale(1);
@@ -1093,6 +1094,30 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* BANNER */
+
+#banner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 2em;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1rem 0.5rem 0 0.5rem;
+	background-color: #fe3e00;
+	color: #ffffff;
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 1em;
+	text-align: center;
+	z-index: 10;
+	opacity: 1;
+}
+
+#banner a {
+	color: #fff;
+}
 
 /* SUBSCRIBE WIDGET */
 
