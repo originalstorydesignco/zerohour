@@ -1298,6 +1298,12 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			opacity: 1;
 		}
 
+@media screen and (max-width: 380px) {
+	.credit {
+		font-size: 0.85rem;
+	}
+}
+
 /* UNUSED */
 
 	.arrowdown-white {
