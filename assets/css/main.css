@@ -1006,6 +1006,12 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		z-index: 100;
 	}
 
+		@media screen and (max-width: 570px) {
+			.menu {
+				top:38px;
+			}
+		}
+
 		.menu-link {
 			position: absolute;
 			width: 100%;
@@ -1176,6 +1182,12 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 
 #banner a {
 	color: #fff;
+}
+
+@media screen and (max-width: 570px) {
+	#banner {
+		height: 3em;
+	}
 }
 
 /* SUBSCRIBE WIDGET */
