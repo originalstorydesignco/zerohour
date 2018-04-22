@@ -1239,7 +1239,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		margin: 0 auto;
 		padding: 4rem 0;		
 		text-align: center;
-		width: 100%;
+		width: 100vw;
 	}
 
 		.footer p {
