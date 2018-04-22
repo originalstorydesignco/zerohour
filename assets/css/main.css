@@ -1162,73 +1162,73 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 
 /* BANNER */
 
-#banner {
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 2em;
-	width: 100%;
-	margin: 0 auto;
-	padding: 1rem 0.5rem 0 0.5rem;
-	background-color: #fe3e00;
-	color: #ffffff;
-	font-family: 'Montserrat';
-	font-weight: 300;
-	font-size: 1em;
-	text-align: center;
-	z-index: 10;
-	opacity: 1;
-}
-
-#banner a {
-	color: #fff;
-}
-
-@media screen and (max-width: 570px) {
 	#banner {
-		height: 3em;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 2em;
+		width: 100%;
+		margin: 0 auto;
+		padding: 1rem 0.5rem 0 0.5rem;
+		background-color: #fe3e00;
+		color: #ffffff;
+		font-family: 'Montserrat';
+		font-weight: 300;
+		font-size: 1em;
+		text-align: center;
+		z-index: 10;
+		opacity: 1;
 	}
-}
+
+		#banner a {
+			color: #fff;
+		}
+
+		@media screen and (max-width: 570px) {
+			#banner {
+				height: 3em;
+			}
+		}
 
 /* SUBSCRIBE WIDGET */
 
-.can_embed #can_embed_form,
-.can_embed #donate_auto_modal {
-	color: #151515 !important;
-	font-family: 'Montserrat';
-}
+	.can_embed #can_embed_form,
+	.can_embed #donate_auto_modal {
+		color: #151515 !important;
+		font-family: 'Montserrat';
+	}
 
-.can_embed #can_embed_form a, .can_embed #donate_auto_modal a {
-	color: #fe3e00;
-}
+	.can_embed #can_embed_form a, .can_embed #donate_auto_modal a {
+		color: #fe3e00;
+	}
 
-/* Heading colors */
-.can_embed #can_embed_form h1,
-.can_embed #donate_auto_modal h1,
-.can_embed #can_embed_form h2,
-.can_embed #donate_auto_modal h2,
-.can_embed #can_embed_form h3,
-.can_embed #donate_auto_modal h3,
-.can_embed #can_embed_form h4,
-.can_embed #donate_auto_modal h4,
-.can_embed #can_embed_form h5,
-.can_embed #donate_auto_modal h5,
-.can_embed #can_embed_form h6,
-.can_embed #donate_auto_modal h6 {
-	color: #151515 !important;
-}
+	/* Heading colors */
+	.can_embed #can_embed_form h1,
+	.can_embed #donate_auto_modal h1,
+	.can_embed #can_embed_form h2,
+	.can_embed #donate_auto_modal h2,
+	.can_embed #can_embed_form h3,
+	.can_embed #donate_auto_modal h3,
+	.can_embed #can_embed_form h4,
+	.can_embed #donate_auto_modal h4,
+	.can_embed #can_embed_form h5,
+	.can_embed #donate_auto_modal h5,
+	.can_embed #can_embed_form h6,
+	.can_embed #donate_auto_modal h6 {
+		color: #151515 !important;
+	}
 
-.can_embed #logo_wrap {
-	display: none !important;
-}
+	.can_embed #logo_wrap {
+		display: none !important;
+	}
 
-.can_embed .can_button,
-.can_embed #can_embed_form input[type="submit"],
-.can_embed #can_embed_form .button,
-.can_embed #donate_auto_modal input[type="submit"],
-.can_embed #donate_auto_modal .button {
-	background-color: #fe3e00 !important;
-}
+	.can_embed .can_button,
+	.can_embed #can_embed_form input[type="submit"],
+	.can_embed #can_embed_form .button,
+	.can_embed #donate_auto_modal input[type="submit"],
+	.can_embed #donate_auto_modal .button {
+		background-color: #fe3e00 !important;
+	}
 
 /* FOOTER */
 
@@ -1241,6 +1241,10 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		text-align: center;
 		width: 100%;
 	}
+
+		.footer p {
+			font-size: 1rem;
+		}
 
 	@media screen and (max-width: 767px) {
 		.footer {
@@ -1269,6 +1273,29 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		.social-fix {
 			margin-top: -0.49em;
 			margin-left: -0.41em;
+		}
+
+	.credit {
+		position: relative;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		margin-top: -2rem;
+		padding: 0 0.5rem 1rem 0.5rem;
+		font-family: 'Montserrat';
+		font-weight: 300;
+		text-align: center;
+		font-size: 1rem;
+		color: #fff;	
+		opacity: 0.4;
+	}
+
+		.credit a {
+			color: #fff;
+		}
+
+		.credit:hover {
+			opacity: 1;
 		}
 
 /* UNUSED */
