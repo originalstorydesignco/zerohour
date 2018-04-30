@@ -320,6 +320,18 @@ h3.padding-bottom-025em {
 					color: #151515;
 				}
 
+		.red-white {
+			color: #fe3e00;
+			-moz-transition: color 0.1s ease-out;
+			-webkit-transition: color 0.1s ease-out;
+			-ms-transition: color 0.1s ease-out;
+			transition: color 0.1s ease-out;
+		}
+
+			.red-white:hover {
+				color: #fff;
+			}
+
 		.black-red {
 			color: #151515;
 			-moz-transition: color 0.1s ease-out;
@@ -415,39 +427,55 @@ h3.padding-bottom-025em {
 		/* MARGIN */
 
 		.padding-1em {
-			padding: 1em;
+			padding: 1rem;
 		}
 
+		.padding-vertical-2em {
+			padding: 2rem 0;
+		}
+
+		.padding-top-2em {
+			padding-top: 2rem;
+		}
+
+.padding-top-5em {
+	padding-top: 5rem;
+}
+
+.padding-bottom-3em {
+	padding-bottom: 3rem;
+}
+
 		.margin-top-1em {
-			margin-top: 1em;
+			margin-top: 1rem;
 		}
 
 		.margin-top-2em {
-			margin-top: 2em;
+			margin-top: 2rem;
 		}
 	
 		.margin-top-3em {
-			margin-top: 3em;
+			margin-top: 3rem;
 		}
 		
 		.margin-bottom-1em {
-			margin-bottom: 1em;
+			margin-bottom: 1rem;
 		}
 
 		.margin-bottom-2em {
-			margin-bottom: 2em;
+			margin-bottom: 2rem;
 		}
 
 		.margin-bottom-5em {
-			margin-bottom: 5em;
+			margin-bottom: 5rem;
 		}
 
 		.margin-bottom-7em {
-			margin-bottom: 7em;
+			margin-bottom: 7rem;
 		}
 
 		.margin-bottom-9em {
-			margin-bottom: 9em;
+			margin-bottom: 9rem;
 		}
 
 		.margin-8-4 {
@@ -459,6 +487,12 @@ h3.padding-bottom-025em {
 		.overlap {
 			position: relative;
 			z-index: 90;
+		}
+
+		.buttons-bottom {
+			position: absolute;
+			width: 100%;
+			bottom: -3rem;
 		}
 
 		.button {
@@ -524,6 +558,21 @@ h3.padding-bottom-025em {
 					  rgba(255, 255, 255, 0.45)
 					),
 				url(../../img/home/ClimateMarchDC_042917_337e2c-Karen-Rubin-web.jpg) no-repeat center;
+			background-size: cover;
+			vertical-align: middle;
+			text-align: center;
+		}
+
+		.landing-box-03 {
+			display: block;
+			height: 100%;
+			width: 100%;
+			background: 
+				 linear-gradient(
+					  rgba(254, 255, 255, 0.45), 
+					  rgba(255, 255, 255, 0.45)
+					),
+				url(../../img/the-march/18193154_1549666095076023_7334343761382197053_o.jpg) no-repeat center;
 			background-size: cover;
 			vertical-align: middle;
 			text-align: center;
@@ -639,20 +688,25 @@ h3.padding-bottom-025em {
 		  image-gallery {padding: 0;}
 		}
 
-	.text-blurb-1 { 
-		padding: 3rem 1rem;
+	.text-blurb-grey { 
+		padding: 3rem 0;
 		background: #333;
 		color: #fff;
 	}
 
-	.text-blurb-1 h2 {
-		padding: 0.5rem 0 1.5rem;
-	}
-
-	@media screen and (max-width: 400px) {
-		.text-blurb-1 {
-			padding: 2rem .5rem;
+		.text-blurb-grey h2 {
+			padding: 0.5rem 0 1.5rem;
 		}
+
+		@media screen and (max-width: 400px) {
+			.text-blurb-grey {
+				padding: 2rem .5rem;
+			}
+		}
+
+	.text-blurb-white { 
+		padding: 3rem 0;
+		background: #fff;
 	}
 
 	.button-primary {
@@ -682,27 +736,36 @@ h3.padding-bottom-025em {
 		color: #fff;
 	}
 
-.button-red-black {
-	background: #fe3e00;
-	color: #fff;
-	-moz-transition: background 0.1s ease-out;
-	-webkit-transition: background 0.1s ease-out;
-	-ms-transition: background 0.1s ease-out;
-	transition: background 0.1s ease-out;
-}
+	.button-red-black {
+		background: #fe3e00;
+		color: #fff;
+		-moz-transition: background 0.1s ease-out;
+		-webkit-transition: background 0.1s ease-out;
+		-ms-transition: background 0.1s ease-out;
+		transition: background 0.1s ease-out;
+	}
 
-.button-red-black:hover {
-	background: #333;
-}
+		.button-red-black:hover {
+			background: #333;
+		}
 
-	.button-white {
+	.button-white-blue {
 		background: #fff;
 		color: #fe3e00;
 	}
 
-	.button-white:hover {
-		background: #00ffc1;
-	}
+		.button-white-blue:hover {
+			background: #00ffc1;
+		}
+
+.button-white {
+	background-color: rgba(255,255,255,1);
+	color: #fe3e00;
+}
+
+.button-white:hover {
+	background-color: rgba(255,255,255,.8);
+}
 
 	@-webkit-keyframes pulse {
 		25% {
