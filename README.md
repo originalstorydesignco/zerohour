@@ -3,7 +3,7 @@
 Zero Hour is a youth led climate action organization
 
 ## OUR VISION
-Enough is enough. We, the youth, believe that #thisisZeroHour to act on climate change. We cannot afford to wait any longer for adults to protect our right to the clean and safe environment, the natural resources we need to not just survive, but flourish. We know that we are the leaders we have been waiting for!
+Enough is enough. We, the youth, believe that #ThisIsZeroHour to act on climate change. We cannot afford to wait any longer for adults to protect our right to the clean and safe environment, the natural resources we need to not just survive, but flourish. We know that we are the leaders we have been waiting for!
 
 We believe that every individual, from every community should have access to clean air, water, and public lands. We believe in putting the needs and health of our communities before corporate gain.
 
