@@ -361,7 +361,7 @@ h3.padding-bottom-025em {
 		/* TEXT SHADOW */
 
 		.black-shadow {
-			text-shadow: 0 0 1.5em rgba(150, 150, 150, 1);
+			text-shadow: 0 0 1.5em rgba(75, 75, 75, 1);
 		}
 
 		.white-shadow {
@@ -536,7 +536,7 @@ h3.padding-bottom-025em {
 					  rgba(255, 255, 255, 0.45), 
 					  rgba(255, 255, 255, 0.45)
 					),
-				url(../../img/home/Home-image.jpg) no-repeat center;
+				url(../../img/home/IMG_0027-web.jpg) no-repeat center;
 			background-size: cover;
 			vertical-align: middle;
 			text-align: center;
@@ -557,7 +557,7 @@ h3.padding-bottom-025em {
 					  rgba(254, 255, 255, 0.45), 
 					  rgba(255, 255, 255, 0.45)
 					),
-				url(../../img/home/24c50c05-0018.jpg) no-repeat center;
+				url(../../img/home/IMG_9961-web.jpg) no-repeat center;
 			background-size: cover;
 			vertical-align: middle;
 			text-align: center;
@@ -572,7 +572,7 @@ h3.padding-bottom-025em {
 					  rgba(254, 255, 255, 0.45), 
 					  rgba(255, 255, 255, 0.45)
 					),
-				url(../../img/the-march/18193154_1549666095076023_7334343761382197053_o.jpg) no-repeat center;
+				url(../../img/our-actions/18193154_1549666095076023_7334343761382197053_o.jpg) no-repeat center;
 			background-size: cover;
 			vertical-align: middle;
 			text-align: center;
@@ -635,44 +635,35 @@ h3.padding-bottom-025em {
 				}
 			}
 
-		.image-gallery div.landing-first {
-			background: url('../../img/home/Web-march-Levi1-800.jpg') no-repeat center;
+		.image-gallery div.gallery-first {
+			background: url('../../img/home/IMG_9909-900.jpg') no-repeat center;
 			background-size: cover;
 		}
 
 
-		.image-gallery div.landing-second {
-			background: url('../../img/home/CwJ3qSDUsAAuOo3-800.jpg') no-repeat center;
+		.image-gallery div.gallery-second {
+			background: url('../../img/home/Copy-of-3-900.jpg') no-repeat center;
 			background-size: cover;
 		}
 
-		.image-gallery div.landing-third {
-			background: url('../../img/home/1-LrMc7mwOULlwUnqUVefysA-900.jpg') no-repeat center;
+
+		.image-gallery div.gallery-third {
+			background: url('../../img/our-actions/IMG_9960-800.jpg') no-repeat center;
 			background-size: cover;
 		}
 
-		.image-gallery div.landing-fourth {
-			background: url('../../img/home/Climate-Xiuhtezcatl-Martinez1--870x580-800.jpg') no-repeat center;
+		.image-gallery div.gallery-fourth {
+			background: url('../../img/our-actions/Copy-of-IMG_3708-900.jpg') no-repeat center;
 			background-size: cover;
 		}
 
-		.image-gallery div.march-first {
-			background: url('../../img/the-march/15325277205_0363c969d0_o-800.jpg') no-repeat center;
+		.image-gallery div.gallery-fifth {
+			background: url('../../img/our-actions/IMG_9783-900.jpg') no-repeat center;
 			background-size: cover;
 		}
 
-		.image-gallery div.march-second {
-			background: url('../../img/the-march/15002016162_fe77b3e271_o-900.jpg') no-repeat center;
-			background-size: cover;
-		}
-
-		.image-gallery div.march-third {
-			background: url('../../img/the-march/114A0884-Edit-800.jpg') no-repeat center;
-			background-size: cover;
-		}
-
-		.image-gallery div.march-fourth {
-			background: url('../../img/the-march/J46A1856-Edit-800.jpg') no-repeat center;
+		.image-gallery div.gallery-sixth {
+			background: url('../../img/our-actions/Copy-of-IMG-20180730-WA0032-800.jpg') no-repeat center;
 			background-size: cover;
 		}
 
