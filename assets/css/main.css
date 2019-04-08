@@ -681,7 +681,7 @@ h3.padding-bottom-025em {
 
 	.text-blurb-grey { 
 		padding: 3rem 0;
-		background: #333;
+		background: rgb(0, 0, 0);
 		color: #fff;
 	}
 
@@ -1148,7 +1148,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 
 	.menu-overlay {
 		position: fixed;
-		top: 4em;
+		top: 3em;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -1219,6 +1219,8 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 	#banner {
 		position: fixed;
 		display: flex;
+		top: 0;
+		left: 0;
 		justify-content: flex-end;
 		align-content: center;
 		height: 2em;
@@ -1278,17 +1280,17 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			background-color: #151515;
 		}
 
-		@media screen and (max-width: 570px) {
-			#banner {
-				height: 3em;
-			}
-		}
-
 		@media screen and (max-width: 600px) {
-			#banner h1:not(:first-child) {display: none;}
+			#banner a{display: none;}
 			#banner a.icon {
 				float: right;
 				display: block;
+			}
+		}
+
+		@media screen and (min-width: 600px) {
+			#banner button{
+				display: none;
 			}
 		}
 /* SUBSCRIBE WIDGET */
