@@ -8,6 +8,13 @@
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'Norwester';
+	src: url('../fonts/norwester.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* TABLE OF CONTENTS 
 	
 	|--	GENERAL	--|
@@ -505,7 +512,7 @@ h3.padding-bottom-025em {
 		}
 
 		.button:hover {
-			background-color: #00ffc1;
+			background-color: #000000;
 		}
 
 		.no-text-decoration {
@@ -746,7 +753,7 @@ h3.padding-bottom-025em {
 	}
 
 		.button-white-blue:hover {
-			background: #00ffc1;
+			background: #000000;
 		}
 
 .button-white {
@@ -1235,8 +1242,19 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		opacity: 1;
 	}
 
+	#banner h1{
+		font-family: 'Norwester'
+	}
+
+	.nav-logo {
+		height:100%;
+		padding-right: 5px;
+		width: auto;
+	}
+
 	.nav-items {
 		display: flex;
+		white-space: nowrap;
 		justify-content: flex-start;
 	} 
 
@@ -1277,7 +1295,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 
 		#banner #banner-logo {
 			font-size: 30;
-			background-color: #151515;
+			font-family: 'RIVERHACK';
 		}
 
 		@media screen and (max-width: 600px) {
@@ -1363,6 +1381,10 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		vertical-align: middle;
 	}
 
+	.social a{
+		text-decoration: none;
+	}
+
 		.social-icon {
 			display: inline-block;
 			width: 0em;
@@ -1376,6 +1398,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		.social-fix {
 			margin-top: -0.49em;
 			margin-left: -0.41em;
+			text-decoration: none;
 		}
 
 	.credit {
