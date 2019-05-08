@@ -1294,7 +1294,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			font-family: 'RIVERHACK';
 		}
 
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 1110px) {
 			#banner a{display: none;}
 			#banner a.icon {
 				float: right;
@@ -1302,7 +1302,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			}
 		}
 
-		@media screen and (min-width: 600px) {
+		@media screen and (min-width: 1110px) {
 			#banner button{
 				display: none;
 			}
@@ -1416,7 +1416,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			color: #fff;
 		}
 
-		.credit:hover {
+		.credit a:hover {
 			opacity: 1;
 		}
 
