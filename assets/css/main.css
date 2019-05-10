@@ -1563,6 +1563,23 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
   font-size: 18px;
 }
 
+.shopping-card button {
+	border: none;
+	align-self: flex-end;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #fe3e00;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.shopping-card form {
+	margin: 0px;
+}
+
 .shopping-card button:disabled{
 	opacity: 0.6;
 	background-color: #000;
