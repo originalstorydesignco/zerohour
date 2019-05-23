@@ -1599,3 +1599,16 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 	flex-wrap: wrap;
 	margin: 12%;
 }
+
+@media only screen and (max-width: 600px){
+	.video-content{
+		visibility: hidden;
+	}
+}
+
+.effect8
+{
+	-webkit-box-shadow: -6px 24px 29px -2px rgba(0,0,0,0.41);
+	-moz-box-shadow: -6px 24px 29px -2px rgba(0,0,0,0.41);
+	box-shadow: -6px 24px 29px -2px rgba(0,0,0,0.41);
+}
