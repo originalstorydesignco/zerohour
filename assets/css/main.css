@@ -1613,3 +1613,21 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 	-moz-box-shadow: -6px 24px 29px -2px rgba(0,0,0,0.41);
 	box-shadow: -6px 24px 29px -2px rgba(0,0,0,0.41);
 }
+
+.sponsor-div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.sponsor-div img{
+	transition: all 0.2s ease;
+	max-width: 150px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.sponsor-div img:hover {
+	transform: scale(1.3);
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
