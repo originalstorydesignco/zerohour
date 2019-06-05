@@ -1228,7 +1228,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		display: flex;
 		top: 0;
 		left: 0;
-		justify-content: flex-end;
+		justify-content: space-between;
 		align-content: center;
 		height: 2em;
 		width: 100%;
@@ -1243,8 +1243,8 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 	}
 
 	.nav-logo {
+		margin-top: 0px;
 		height:100%;
-		padding-right: 5px;
 		width: auto;
 	}
 
@@ -1254,12 +1254,17 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		justify-content: flex-start;
 	} 
 
+	.nav-cont {
+		max-width: 200px;
+	}
+
+
 	.nav-right {
-		margin-left: auto;
 		align-items: center;
 	}
 
 		/* Banner Link Transitions */
+		
 		#banner a:before {
 			content: "";
 			position: absolute;
@@ -1289,13 +1294,14 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			text-decoration: none;
 		}
 
+
 		#banner #banner-logo {
 			font-size: 30;
 			font-family: 'RIVERHACK';
 		}
 
 		@media screen and (max-width: 1110px) {
-			#banner a{display: none;}
+			.nav-right a{display: none;}
 			#banner a.icon {
 				float: right;
 				display: block;
