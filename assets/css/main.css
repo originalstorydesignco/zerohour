@@ -862,7 +862,7 @@ h3.padding-bottom-025em {
 		position: relative;
 		width: 100%;
 		margin: 0;
-		text-align: left;
+		text-align: center;
 	}
 
 	.team-thumb {
@@ -1621,11 +1621,24 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 }
 
 .sponsor-div {
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: 25% auto auto;
+}
+
+.sponsor-div a{
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+  align-items: center;
 }
 
 .sponsor-div img{
+	grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+	grid-row-end: 3;
 	transition: all 0.2s ease;
 	max-width: 150px;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
