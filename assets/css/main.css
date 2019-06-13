@@ -987,6 +987,7 @@ h3.padding-bottom-025em {
 			-webkit-transition: all 0.1s ease-out;
 			-ms-transition: all 0.1s ease-out;
 			transition: all 0.1s ease-out;
+			max-width: 300px;
 		}
 
 			.logo-gallery img:hover {
