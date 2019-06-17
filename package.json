@@ -1,0 +1,22 @@
+{
+  "name": "zerohour",
+  "version": "1.0.0",
+  "description": "Website for This Is Zero Hour",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/originalstorydesignco/zerohour.git"
+  },
+  "author": "Zach Zulanas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/originalstorydesignco/zerohour/issues"
+  },
+  "homepage": "https://github.com/originalstorydesignco/zerohour#readme",
+  "dependencies": {
+    "tingle.js": "^0.15.1"
+  }
+}

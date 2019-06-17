@@ -10,6 +10,7 @@
 	<link href="assets/css/hamburgers.css" rel="stylesheet">
 	<link rel="icon" href="./img/home/Zero Hour Logo.png"/>
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" />
+	<link rel="stylesheet" href="./node_modules/tingle.js/dist/tingle.min.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
 		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -24,9 +25,10 @@
 </head>
 
 <body>
+	<div class="tingle-content-wrapper">
 	<!-- BANNER -->
 
-	<div id="banner">
+	<div id="banner" >
 		<div class="nav-cont">
 			<a class="nav-logo" href="/">
 			<img class="nav-logo" src="img/ZH-Nav_logo.png">
@@ -62,6 +64,9 @@
 			<h1><a href="../media">Media</a></h1>
 		</div>
 	</div>
+
+	<!-- MODAL -->
+
 
 	<!-- PAGE -->
 
@@ -167,6 +172,8 @@
 	  
 	</section>
 
+</div>
+
 	<!-- SCROLL SCRIPT -->
 	<script>
 		$('a[href^="#"]').click(function () {
@@ -184,9 +191,11 @@
 
 	<!-- MENU SCRIPT -->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script src="./assets/js/menu.js"></script>
-
+	<script src="node_modules/tingle.js/dist/tingle.min.js"></script>
+	<script src='./assets/js/modal.js'></script>
 	<!-- SUBSCRIBE SCRIPT -->
 	<link href="https://actionnetwork.org/css/style-embed-whitelabel-v3.css" rel="stylesheet" type="text/css" />
 	<script src="https://actionnetwork.org/widgets/v3/form/subscribe-to-zero-hour?format=js&source=widget"></script>
