@@ -1620,7 +1620,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 	display: grid;
 	margin-left: auto;
 	margin-right: auto;
-	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-template-rows: 25% auto auto;
 }
 
@@ -1628,6 +1628,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 	display: flex;
 	justify-content: center;
   align-items: center;
+  max-height: 200px;
 }
 
 .sponsor-div img{
