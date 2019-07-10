@@ -43,3 +43,24 @@ var erica= new tingle.modal({
 // set content
 erica.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="red uppercase">Erica Dodds</h1> <p>Dr. Erica Dodds is the Executive Director of the Healthy Climate Alliance. She holds a Ph.D. in Interdisciplinary Evaluation and an M.A. in International Development Administration. Erica’s lifelong interest in poverty reduction led her to study abroad in West Africa, intern with an NGO in rural India, and work for the Evaluation Office of the International Labour Organization in Geneva. She is committed to seeing climate action work for today’s youth in addition to future generations, and she believes that the key is setting a goal of restoring a safe and healthy climate. </p>');
 
+var alex= new tingle.modal({
+    footer: false,
+    stickyFooter: false,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['tingle-modal'],
+});
+
+// set content
+alex.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="red uppercase">Alexandria Villaseñor</h1> <p>Alexandria Villaseñor is a 14 year old climate activist living in New York City. Frustrated by the lack of progress at COP 24, and inspired by 16 year old Swedish climate activist Greta Thunberg, Alexandria began her weekly school strike for climate in front of the United Nations Headquarters on December 14, 2018 and has now been on strike for 31 weeks. Soon after she began, Alexandria became a national and international Fridays for Future organizer for the first ever global youth climate strike which occurred on March 15, 2019. This historic strike mobilized 1.6M youth from 123 countries to demand climate action from their world leaders. For her work, Alexandria was awarded the 2019 Tribeca Film Festival\'s "Disruptor" award and "The Common Good Foundation Changemaker Scholarship. In April of this year, Alexandria founded the international NGO  “Earth Uprising” in order to bring accurate climate change education to young people around the world, and help them mobilize for direct action. Personally, Alexandria stands for a 50% reduction in global greenhouse gas emissions by 2030, as outlined in the October 2018 IPCC Special Report and intends to continue her school strikes, climate activism and direct action until this goal is reached.</p>');
+
+var kristin= new tingle.modal({
+    footer: false,
+    stickyFooter: false,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['tingle-modal'],
+});
+
+// set content
+kristin.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="red uppercase">Kristin Hogue</h1> <p>Kristin Hogue was the 2018 University of California, Office of the President, Carbon Neutrality Initiative Fellow, which intends to take the entire University of California system carbon neutral by 2025. While at the University of California, she also designed and taught an award winning humanities based climate change curriculum for undergraduates. For her work she was awarded the Susan F. Regan award by the national Prytanean Honor Society. Recently, Kristin earned her M.A. in Climate and Society at Columbia University and this fall, she\'ll pursue her PhD in Cultural Studies at the University of California, Davis where she\'ll research the intersection of climate change and culture. Kristin\'s first book, due out next spring, traces the scientific climatological shifts in the earth system over the last 50 years, and their relation to the accompanying climate social movements of the time. Recently, Kristin has stepped up as the board chair for her daughter\'s organization, Earth Uprising, where she coordinates and rallies adult allies to support the youth climate movement.</p>');
