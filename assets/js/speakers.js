@@ -64,3 +64,15 @@ var kristin= new tingle.modal({
 
 // set content
 kristin.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="red uppercase">Kristin Hogue</h1> <p>Kristin Hogue was the 2018 University of California, Office of the President, Carbon Neutrality Initiative Fellow, which intends to take the entire University of California system carbon neutral by 2025. While at the University of California, she also designed and taught an award winning humanities based climate change curriculum for undergraduates. For her work she was awarded the Susan F. Regan award by the national Prytanean Honor Society. Recently, Kristin earned her M.A. in Climate and Society at Columbia University and this fall, she\'ll pursue her PhD in Cultural Studies at the University of California, Davis where she\'ll research the intersection of climate change and culture. Kristin\'s first book, due out next spring, traces the scientific climatological shifts in the earth system over the last 50 years, and their relation to the accompanying climate social movements of the time. Recently, Kristin has stepped up as the board chair for her daughter\'s organization, Earth Uprising, where she coordinates and rallies adult allies to support the youth climate movement.</p>');
+
+
+var yass= new tingle.modal({
+    footer: false,
+    stickyFooter: false,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['tingle-modal'],
+});
+
+// set content
+yass.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="red uppercase">Yassamin Ansari</h1> <p>Yassamin Ansari is a climate policy expert and strategist currently working for United Nations Secretary-General Antonio Guterres, spearheading youth engagement and public mobilization for the 2019 UN Climate Action Summit. She also serves as Principal Advisor to Mission 2020, the global climate action campaign led by Christiana Figueres. For her work on climate change, Yassamin was recently recognized as a Grist 50 "Fixer"— "the people cooking up the boldest, most innovative solutions to fix the biggest challenges that face our globe.\" <p>Yassamin began her career as a John Gardner Public Service Fellow at the United Nations, where she served as the youngest member of the climate team that advised former Secretary-General Ban Ki-moon and helped to deliver the historic Paris Agreement. Later, she was appointed as the Director of the Climate Action 2016 Summit in Washington D.C., and worked with the Office of Governor Jerry Brown where she served as the Deputy Director of Policy for the Global Climate Action Summit, helping to deliver more than 500 new climate action commitments from business, cities, states and regions.</p> <p>Yassamin holds a bachelor\'s degree in international relations with honors from Stanford University, and a master\'s degree from the University of Cambridge. She has received many awards and accolades for her work, including the Stanford Award of Excellence, U.S. Department of State Critical Language Scholarship, DNC Hope Fellowship, and recognition from the Clinton Global Initiative. </p>');
