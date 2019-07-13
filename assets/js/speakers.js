@@ -76,3 +76,37 @@ var yass= new tingle.modal({
 
 // set content
 yass.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="red uppercase">Yassamin Ansari</h1> <p>Yassamin Ansari is a climate policy expert and strategist currently working for United Nations Secretary-General Antonio Guterres, spearheading youth engagement and public mobilization for the 2019 UN Climate Action Summit. She also serves as Principal Advisor to Mission 2020, the global climate action campaign led by Christiana Figueres. For her work on climate change, Yassamin was recently recognized as a Grist 50 "Fixer"— "the people cooking up the boldest, most innovative solutions to fix the biggest challenges that face our globe.\" <p>Yassamin began her career as a John Gardner Public Service Fellow at the United Nations, where she served as the youngest member of the climate team that advised former Secretary-General Ban Ki-moon and helped to deliver the historic Paris Agreement. Later, she was appointed as the Director of the Climate Action 2016 Summit in Washington D.C., and worked with the Office of Governor Jerry Brown where she served as the Deputy Director of Policy for the Global Climate Action Summit, helping to deliver more than 500 new climate action commitments from business, cities, states and regions.</p> <p>Yassamin holds a bachelor\'s degree in international relations with honors from Stanford University, and a master\'s degree from the University of Cambridge. She has received many awards and accolades for her work, including the Stanford Award of Excellence, U.S. Department of State Critical Language Scholarship, DNC Hope Fellowship, and recognition from the Clinton Global Initiative. </p>');
+
+
+var patricia= new tingle.modal({
+    footer: false,
+    stickyFooter: false,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['tingle-modal'],
+});
+
+// set content
+patricia.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="red uppercase">Patricia Sanchez Abril</h1> <p>Patricia Sánchez Abril is Professor of Business Law and Vice Dean of Graduate Business Programs at the University of Miami Business School. Since 2004, she has taught all aspects of business law, negotiation, and business ethics to undergraduates, MBAs, Executive MBAs, and in Executive Education Programs. Professor Abril has been a champion of pedagogical innovation, experiential learning, and mentorship of students. Anticipating the evolving needs of business students and professionals, she developed and taught a suite of business law courses placing an emphasis on research, critical thinking, and communication skills. Known for her dedication to students, Professor Abril has mentored and supervised many student research projects, which have earned her students accolades, successful career placement, and spots in the country’s top law and graduate schools. Over the past decade, she has received five excellence in teaching awards, including in the MBA for Artists and Athletes, the Global Executive MBA (Spanish), and the undergraduate business program. Before embarking on an academic career, Abril practiced corporate and entertainment law and worked at Univision Communications in a business capacity. A Miami native, Abril graduated from Harvard Law School and earned her B.A. from Duke University as an Angier B. Duke Scholar.</p>');
+
+var nancy= new tingle.modal({
+    footer: false,
+    stickyFooter: false,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['tingle-modal'],
+});
+
+// set content
+nancy.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="red uppercase">Nancy Metayer</h1> <p>Nancy Metayer is a community organizer and former member of the Broward County Soil and Water Conservation District. With a decade of public service experience, leading on issues ranging from environmental advocacy to disaster relief. Nancy has a record for championing community resilience and building pipelines for access and equity. Nancy is a graduate of Florida A&M University, where she received her Bachelor of Science degree and a graduate of Johns Hopkins University where she received her Master of Health Science degree.</p> <p>Nancy has undertaken work across multiple government agencies and nonprofit organizations - both domestically and internationally. She’s brought long-term strategy expertise to programs seeking to improve environmental conditions, water, sanitation and public health across vulnerable communities. She’s been a staunch advocate for those impacted by water crises’ nationwide and worked extensively in response to devastating natural disasters such as 2018’s Hurricane Irma and 2019’s Hurricane Michael. Most recently, Nancy was a Mayoral candidate for Coral Springs in the March 2019 special election. Currently, Nancy leads a long-term strategy initiative, Florida Disaster Preparedness Plan (FDPP), which focuses on building disaster and community resilience in vulnerable neighborhoods across the state of Florida. </p>');
+
+var val= new tingle.modal({
+    footer: false,
+    stickyFooter: false,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['tingle-modal'],
+});
+
+// set content
+val.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="red uppercase">Valorie Aquino</h1> <p>Valorie Aquino is an anthropological archaeologist and scientific researcher, who contributed original research on human-environment interactions by reconstructing centuries\' worth of ancient cultural and paleoclimate records. Her work has been published in Science, Scientific Reports, and Nature Geoscience. In 2017, she became a national co-chair of the inaugural March for Science, which collectively created the largest global event for science in history, drawing more than 1.1 million people on all seven continents to publicly demonstrate for scientific integrity and justice on Earth Day, and currently serves as the Executive Director.</p>');
