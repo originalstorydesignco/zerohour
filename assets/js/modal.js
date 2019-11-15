@@ -19,11 +19,11 @@ var modal = new tingle.modal({
 });
 
 // set content
-modal.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="center">Sign up for Zero Hour\'s Youth Climate Summit now!</h1>');
+modal.setContent('<h1 style="font-family:Montserrat; font-size:3em;" class="center">Become a Zero Hour Ambassador now by clicking the link below!</h1>');
 
 // add a button
 modal.addFooterBtn('Yes please!', 'tingle-btn tingle-btn--primary', function() {
-    openInNewTab('https://bit.ly/zerohourregister')
+    openInNewTab('http://bit.ly/TOTHEROOTS')
 });
 
 // add another button
