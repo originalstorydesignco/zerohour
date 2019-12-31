@@ -1255,6 +1255,32 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		justify-content: flex-start;
 	} 
 
+
+  /* Dropdown Content (Hidden by Default) */
+  .drop-content {
+	display: none;
+	position: absolute;
+	background-color: #fe3e00;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+
+  .drop-item {
+	  padding: 10px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .drop-content h1:hover {
+	  background-color: #9f2800;
+	  transition-property: background-color;
+	  transition-duration: 0.3s;
+	}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .drop-content {display: block;}
+  
+
 	.nav-cont {
 		max-width: 200px;
 	}
@@ -1266,7 +1292,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 
 		/* Banner Link Transitions */
 		
-		#banner a:before {
+		.nav-items > h1:before {
 			content: "";
 			position: absolute;
 			width: 100%;
@@ -1281,13 +1307,21 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			transition: all 0.3s ease-in-out 0s;
 		}
 
-		#banner  a:hover:before {
+		.nav-items  h1:hover:before {
 			visibility: visible;
 			-webkit-transform: scaleX(1);
 			transform: scaleX(1);
 		}
 	
 		#banner a {
+			position: relative;
+			padding-right: 8px;
+			color: #fff;
+			margin: 10;
+			text-decoration: none;
+		}
+
+		.nav-items h1 {
 			position: relative;
 			padding-right: 8px;
 			color: #fff;
@@ -1303,6 +1337,7 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 
 		@media screen and (max-width: 1110px) {
 			.nav-right a{display: none;}
+			.dropdown {display: none;}
 			#banner a.icon {
 				float: right;
 				display: block;
