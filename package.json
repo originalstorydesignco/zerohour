@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/originalstorydesignco/zerohour#readme",
   "dependencies": {
+    "timeto": "^1.5.0",
     "tingle.js": "^0.15.1"
   }
 }

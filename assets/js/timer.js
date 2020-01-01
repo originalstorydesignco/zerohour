@@ -1,9 +1,10 @@
 var timerId =
   countdown(
-    new Date('July 12, 2019'),
+    new Date('December 31, 2029'),
     function(ts) {
-      document.getElementById('pageTimer').innerHTML = ts.toHTML("strong");
+      document.getElementById('pageTimer').innerHTML = ts.years + "  :  " + ts.days + '  :  ' + ts.hours + "  :  " + ts.minutes + "  :  " + ts.seconds;
+      document.getElementById('pageTimed').innerHTML = "years" + "    " +"days" +"    " +"hours"+"   "+    "minutes" + "   "+  "seconds";
     },
-    countdown.DAYS | countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
+    countdown.YEARS | countdown.DAYS | countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
 
 console.log(timerId)

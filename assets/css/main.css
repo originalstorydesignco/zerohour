@@ -1332,12 +1332,13 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			color: #fff;
 			margin: 10;
 			text-decoration: none;
+			font-family: 'Norwester';
 		}
 
 
 		#banner #banner-logo {
 			font-size: 30;
-			font-family: 'RIVERHACK';
+			font-family: 'Norwester';
 		}
 
 		@media screen and (max-width: 1110px) {
