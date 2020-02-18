@@ -1243,6 +1243,9 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 		opacity: 1;
 	}
 
+	#banner.img {
+		max-width: 100%;
+	}
 	.nav-logo {
 		margin-top: 0px;
 		height:100%;
@@ -1347,6 +1350,10 @@ SOURCE: https://codepen.io/EvyatarDa/pen/waKXMd
 			#banner a.icon {
 				float: right;
 				display: block;
+			}
+			#banner img{
+				max-width: 100%;
+				height: auto;
 			}
 		}
 
